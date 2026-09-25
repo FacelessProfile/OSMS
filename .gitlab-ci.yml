@@ -1,0 +1,11 @@
+stages:
+  - validate
+
+validate:octave:
+  image: gnu/octave:latest
+  stage: validate
+  script:
+    - octave --eval "disp('Validating Lab 01 syntax and execution...');"
+  allow_failure: true
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"

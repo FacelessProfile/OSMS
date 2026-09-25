@@ -1,0 +1,56 @@
+# ==============================================================================
+# MATLAB & Simulink
+# ==============================================================================
+*.asv
+*.bak
+*.autosave
+*.m~
+*.mat
+*.fig
+.SimulinkCache/
+slprj/
+
+# Raw student draft scripts at root level
+/lab*.m
+/detailed_uwu_cat_fourier.m
+
+# ==============================================================================
+# Large Binary Media (Audio, MIDI, Video)
+# Code-only repository: synthetic signals are generated on-the-fly
+# ==============================================================================
+*.wav
+*.ogg
+*.mp3
+*.mid
+*.midi
+
+# ==============================================================================
+# Academic Documents, Templates & Reports
+# ==============================================================================
+*.pdf
+report/
+report_images/
+LaTeX_*/
+Отчет_*
+*.synctex.gz
+*.aux
+*.log
+*.out
+*.toc
+
+# ==============================================================================
+# Python Scripts & Build Artifacts (Pure MATLAB repository)
+# ==============================================================================
+*.py
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# ==============================================================================
+# Operating System & IDE Clutter
+# ==============================================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
